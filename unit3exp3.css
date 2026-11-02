@@ -1,0 +1,28 @@
+body {
+    font: 16px Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+main {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+}
+
+form, label {
+    display: grid;
+    gap: 10px;
+}
+
+input, button {
+    padding: 8px;
+    font: inherit;
+}
+
+button {
+    color: white;
+    background: #164e63;
+    border: 0;
+    cursor: pointer;
+}

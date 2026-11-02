@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A demonstration of HTML hyperlinks and page navigation.">
+    <title>Unit 3 Experiment 2 - Hyperlinks and Navigation</title>
+    <link rel="stylesheet" href="unit3exp2.css">
+</head>
+<body>
+    <header>
+        <h1>Hyperlinks and Navigation</h1>
+        <p>Unit 3, Experiment 2: linking between sections, pages, and websites.</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#page-links">Page links</a></li>
+            <li><a href="#external-links">External links</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="introduction">
+            <h2>What is a hyperlink?</h2>
+            <p>An HTML hyperlink uses the <code>&lt;a&gt;</code> element. Its <code>href</code> attribute tells the browser where to go when the link is selected.</p>
+            <p><a href="#page-links">Jump to the page links section</a> to see an in-page link in action.</p>
+        </section>
+
+        <section id="page-links">
+            <h2>Links to other pages</h2>
+            <p>These links open the neighboring experiments in this folder:</p>
+            <ul>
+                <li><a href="unit3exp1.html">Experiment 1: HTML5 features</a></li>
+                <li><a href="unit3exp3.html">Experiment 3: input types and location</a></li>
+            </ul>
+            <p><a href="#introduction">Back to the introduction</a></p>
+        </section>
+
+        <section id="external-links">
+            <h2>External links</h2>
+            <p>This link opens the official MDN guide to HTML links in a new tab:</p>
+            <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank" rel="noopener noreferrer">Read the MDN guide to anchor elements</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Unit 3 Experiment 2</p>
+    </footer>
+</body>
+</html>
